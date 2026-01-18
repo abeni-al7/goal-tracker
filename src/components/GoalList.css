@@ -1,0 +1,46 @@
+.goal-list {
+  margin-top: 2rem;
+}
+
+.empty-state {
+  background: white;
+  padding: 3rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.empty-state p {
+  color: #666;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.category-section {
+  margin-bottom: 3rem;
+}
+
+.category-title {
+  color: white;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  text-transform: capitalize;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.goals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .goals-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .category-title {
+    font-size: 1.5rem;
+  }
+}
