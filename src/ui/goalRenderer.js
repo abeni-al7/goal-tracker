@@ -43,12 +43,12 @@ function renderGoal(goal) {
  */
 function renderStatusButtons(goal) {
   if (goal.status === 'completed') {
-    return '<button class="btn-status" data-id="${goal.id}" data-status="in-progress">Reopen</button>';
+    return `<button class="btn-status" data-id="${goal.id}" data-status="in-progress">Reopen</button>`;
   }
   if (goal.status === 'in-progress') {
-    return '<button class="btn-status" data-id="${goal.id}" data-status="completed">Complete</button>';
+    return `<button class="btn-status" data-id="${goal.id}" data-status="completed">Complete</button>`;
   }
-  return '<button class="btn-status" data-id="${goal.id}" data-status="in-progress">Start</button>';
+  return `<button class="btn-status" data-id="${goal.id}" data-status="in-progress">Start</button>`;
 }
 
 /**
