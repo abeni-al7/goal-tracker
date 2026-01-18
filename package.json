@@ -1,0 +1,18 @@
+{
+  "name": "goal-tracker",
+  "version": "1.0.0",
+  "description": "A simple goal tracking application with clean architecture",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "start": "node src/index.js"
+  },
+  "keywords": ["goal", "tracker", "productivity"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
